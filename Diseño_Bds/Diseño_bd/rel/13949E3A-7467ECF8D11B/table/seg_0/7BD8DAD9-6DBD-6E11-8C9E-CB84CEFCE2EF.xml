@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BD8DAD9-6DBD-6E11-8C9E-CB84CEFCE2EF" name="Detalle_pedido">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>8F6EC64D-28EC-49E1-183D-C69069842B31</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero_linea" id="AA36B95E-6B8F-4A90-2AC8-EF0AD31B9B60">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>07D46F89-C671-3E9D-91C1-1CF2B1482850</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="7C961AEF-A5B6-3B61-B809-4237F240CAB2">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>C9E32157-0E36-545E-A564-AEA717296952</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_detalle" id="63DA0C89-62D9-559D-DFE0-D8276309BE1E">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>AB8021DD-0A78-CD37-7EAB-EF39435A12A8</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_pedido" id="98BF5051-5733-59C6-AF9C-C3A614A79443">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>8AA6B5FD-115A-AD4B-9925-F3F4CC8238FA</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cabecera_pedido_Cod_pedido" id="09F62F8F-9AEB-352E-4BBC-D1FBA074CE50">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>3FA303AB-67B3-126C-B97E-AD7D6ECDC08C</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2CE2D72-4A27-1B33-97F5-E1ED4FD2FE85" referredColumn="8372C27C-D212-C436-B7A2-E1B46F0E3CF1"/>
+</associations>
+</Column>
+<Column name="Productos_Cod_producto" id="5C6EF272-7EE2-3F2A-71DA-A7978895C5E3">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>2741ACD5-30BC-A0FD-B6DB-4B740F03FC28</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B2FBFE7-2D8F-CFFC-C6CF-49A8FF962575" referredColumn="89795A3A-4787-38EE-0C67-DB8A51A73FB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04BD130A-FA27-7560-F56B-F14F5A438047" name="Detalle_pedido_PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>6322D396-8948-7171-5B97-F7F32CEF2D51</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA36B95E-6B8F-4A90-2AC8-EF0AD31B9B60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3ADF801-B904-1C58-2AD2-46958A3873D2" name="Detalle_pedido_Cabecera_pedido_FK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>3CED2561-45B0-02B8-624C-2A4B04B27AD2</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F62F8F-9AEB-352E-4BBC-D1FBA074CE50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBEFDD95-0441-43E9-5919-C6843E160CF8" name="Detalle_pedido_Productos_FK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>B9B6C09C-FB30-C2D6-4CA6-3D6CFCC54932</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C6EF272-7EE2-3F2A-71DA-A7978895C5E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

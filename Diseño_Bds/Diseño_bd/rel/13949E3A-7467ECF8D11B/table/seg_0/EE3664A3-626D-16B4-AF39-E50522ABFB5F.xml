@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE3664A3-626D-16B4-AF39-E50522ABFB5F" name="Productos">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>7578DDFB-F454-412A-82AD-DB5C67FC0F97</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_producto" id="89795A3A-4787-38EE-0C67-DB8A51A73FB8">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>C5FEF100-E20A-2BE6-B29A-ABF255CC4096</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_producto" id="A06B8B28-21DF-50BE-DF6E-724C40A686F9">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>438C1EB8-6058-DE4F-5ED1-820A4D6AD5AC</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_Unitario" id="03BC8D3A-7F11-E4AA-896D-4307AED24AE0">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>76A5B96B-4E55-C833-011C-51B98A593490</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Moneda" id="17B70529-1973-02EC-2508-EF6EF2F4162D">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>CA12A409-8876-5ACF-1C05-757DB10A69D6</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E517C3A-9FBC-EE7C-61A0-EAD5A3C46C03" name="Productos_PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>8E930F9A-5B70-4630-7556-F68BDE423005</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89795A3A-4787-38EE-0C67-DB8A51A73FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

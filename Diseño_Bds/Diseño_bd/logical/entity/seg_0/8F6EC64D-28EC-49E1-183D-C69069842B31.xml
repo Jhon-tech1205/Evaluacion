@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F6EC64D-28EC-49E1-183D-C69069842B31" name="Detalle_pedido">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:57:38 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero_linea" id="07D46F89-C671-3E9D-91C1-1CF2B1482850">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:00:21 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="C9E32157-0E36-545E-A564-AEA717296952">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:03:23 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_detalle" id="AB8021DD-0A78-CD37-7EAB-EF39435A12A8">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:03:34 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo_pedido" id="8AA6B5FD-115A-AD4B-9925-F3F4CC8238FA">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:05:27 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_pedido" id="3FA303AB-67B3-126C-B97E-AD7D6ECDC08C">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:10:36 UTC</createdTime>
+<generatorID>3CED2561-45B0-02B8-624C-2A4B04B27AD2</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<referedAttribute>5C919427-7188-BF6C-9CAE-B0498E6ACAF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_producto" id="2741ACD5-30BC-A0FD-B6DB-4B740F03FC28">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:11:44 UTC</createdTime>
+<generatorID>B9B6C09C-FB30-C2D6-4CA6-3D6CFCC54932</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<referedAttribute>C5FEF100-E20A-2BE6-B29A-ABF255CC4096</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6322D396-8948-7171-5B97-F7F32CEF2D51" name="Detalle_pedido PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:03:10 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07D46F89-C671-3E9D-91C1-1CF2B1482850</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

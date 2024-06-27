@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="204C4FB6-E7B0-F7A5-84E0-DCEC4177084E" name="Cabecera_pedido">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>0E88C755-3F8B-BE3C-A779-03EE306A006C</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_pedido" id="8372C27C-D212-C436-B7A2-E1B46F0E3CF1">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>5C919427-7188-BF6C-9CAE-B0498E6ACAF8</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_entrega" id="941D866C-2B7E-A41A-FAAF-6B9A163394D1">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>CD071B57-50FC-67ED-0064-3942E66A6E2F</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sub_total" id="B0458894-B69D-E56C-273C-751FDB192345">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>5DBF6853-EAF4-3A6A-4C97-95CF25080A05</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cant_total" id="D3B1755D-6DBB-1A78-A590-413496FA2A6A">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>CAE92F94-620B-55D9-121F-2AFE839B7F29</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igv" id="047F60A6-B82C-85B7-4299-89F61D1D015E">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>BF50DBAC-5D42-DE22-25D0-997773CF77AD</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total" id="BB06E760-B7C1-4A23-5A51-FCABAA5E3AD3">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>6B38AC02-2406-77F5-F2A2-7A87FDFA1FAD</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_Cod_cliente" id="DEB6D850-033F-4A4C-EA9B-7A7209BBF864">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>1BD6CC9B-DEC4-F565-A4CF-B7D6BA23400E</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E221CD1-59B1-928B-A244-71349E246E5B" referredColumn="DA7DF9F0-A5D2-B47C-3BCE-40290AF0E3EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3BE2DDB-7003-19B8-0FF6-155A60E659FA" name="Cabecera_pedido_PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>479F5982-2E57-B68B-2239-2EB8C951C734</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8372C27C-D212-C436-B7A2-E1B46F0E3CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A0FAD45-5005-3685-85B5-CAD67519F37D" name="Cabecera_pedido_Cliente_FK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>C9A1008C-AD59-F2FF-C532-E47A936A587A</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEB6D850-033F-4A4C-EA9B-7A7209BBF864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="192B57DC-EF7E-977D-C851-8B2B13CF49E5" name="Usuarios">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>9735B64C-359C-EBDF-35BE-4BC15D0220E9</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_usuario" id="B99AFF5F-DF93-6A98-BF94-E9498BDDB5FB">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>47FE451B-48AF-65FF-09A3-E0D75F4A0065</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario" id="0FAB2A63-11A0-F7AA-C2E7-D59877E7DE7E">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>CB1EEC7E-9EF2-8981-11C8-81CB20A6E245</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="A85BAF60-D00B-90E8-5D84-026820BB00DC">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>EF017B8A-221D-7972-4B5A-EF10BC782B9A</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clave" id="31E14151-8315-C4E4-BE3D-99594D17849E">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>5D494028-3A4F-7059-B7E7-886286778F69</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_Sesion" id="8F6D2BE6-1A97-042B-BE61-582A5B4C4AF9">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>9880CC0B-D5CA-483E-831B-383AC3B67B00</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ultima_fecha_y_hora_I_sesion" id="4D3DD4C7-6335-71D1-7837-C3328BDCC536">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>85754DC0-2500-812A-888D-472F0B72B260</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto_usuario" id="2CD150AC-491D-0DED-657E-17B18B21FD34">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>1DC6D819-BE02-CCCA-72FD-B825D4D34C43</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="993B3F6B-AED8-9CF3-50ED-AC4848E2EBFF" name="Usuarios_PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>B3278117-30AE-878E-344E-32F02286E74C</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99AFF5F-DF93-6A98-BF94-E9498BDDB5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E006F9-9F83-2225-ED65-DEDEC5A4389C" name="Usuarios_Usuario_UN">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>2380DAEF-083B-5A98-04FF-E95F97F893D2</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FAB2A63-11A0-F7AA-C2E7-D59877E7DE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

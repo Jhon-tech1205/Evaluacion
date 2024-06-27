@@ -1,0 +1,51 @@
+﻿Cod;Ruc o dni;Razon social;Direccion_entrega;Dirección fiscal;Fecha registro;Usuario Registro
+1;12345678;Cliente A;San Miguel 123;Lima 001;2022/05/10;2
+2;23456789;Cliente B;Av. Brasil 456;Lima 002;2023/02/20;3
+3;34567890;Cliente C;Jr. Huancayo 789;Lima 003;2023/06/15;4
+4;87654321;Cliente Beta;Jr. Progreso 456;Lima 202;2023/07/20;5
+5;76543210;Cliente Gamma;Av. Primavera 789;Lima 303;2023/08/25;6
+6;65432199;Cliente Delta;Calle Aurora 101;Lima 404;2023/09/30;7
+7;54321798;Cliente Epsilon;Jr. Tacna 202;Lima 505;2023/10/05;8
+8;43210987;Cliente Zeta;Av. San Martín 303;Lima 606;2023/11/10;9
+9;32109876;Cliente Eta;Jr. Ayacucho 404;Lima 707;2023/12/15;10
+10;21098765;Cliente Theta;Av. Los Incas 505;Lima 808;2024/01/20;11
+11;10987654;Cliente Iota;Calle Huancayo 606;Lima 909;2024/02/25;12
+12;39876543;Cliente Kappa;Jr. Puno 707;Lima 019;2024/03/01;13
+13;65432909;Cliente Lambda;Av. Chimbote 808;Lima 011;2024/04/05;14
+14;65432109;Cliente Mu;Calle Tumbes 909;Lima 012;2024/05/10;15
+15;40210987;Cliente Un;Av. Cusco 1010;Lima 013;2024/06/15;16
+16;21092765;Cliente Xi;Jr. Madre de Dios 1111;Lima 014;2024/07/20;17
+17;10957654;Cliente Omicron;Av. Ayacucho 1212;Lima 015;2024/06/25;18
+18;23436789;Cliente Omega;Av. Libertadores 123;Lima 101;2023/06/05;19
+19;34567190;Cliente Alpha;Jr. Puno 456;Lima 209;2023/07/10;20
+20;23656785;Distribuidora La Estrella;Av. Libertadores 180;Lima 090;2023/01/10;21
+21;45678901;Comercial Los Pinos;Jr. Puno 456;Lima 220;2023/02/15;22
+22;56789012;Ferretería El Martillo;Av. Primavera 789;Lima 350;2023/03/20;23
+23;67890123;Importaciones Sol y Luna;Calle Aurora 101;Lima 443;2023/04/25;24
+24;78901234;Distribuidora Nueva Vida;Jr. Tacna 202;Lima 567;2023/05/30;25
+25;89012345;Constructora El Dorado;Av. San Martín 303;Lima 606;2023/06/05;26
+26;90123456;Joyeria Brillante;Jr. Ayacucho 404;Lima 725;2023/07/10;27
+27;12384567;Modas Primavera;Av. Los Incas 505;Lima 808;2023/08/15;28
+28;12045678;Libreria El Saber;Calle Huancayo 606;Lima 914;2023/09/20;29
+29;29456789;Cofee Aroma;Jr. Puno 707;Lima 010;2023/10/25;30
+30;54321098;Electrohogar S.A.C.;Av. Los Robles 234;Lima 111;2023/01/05;31
+31;68765432;Distribuidora del Sur;Jr. Cuzco 567;Lima 242;2023/02/10;32
+32;24689135;Almacenes Unidos;Av. Las Flores 789;Lima 378;2023/03/15;33
+33;80246713;Importadora Mundo Nuevo;Calle Alameda 456;Lima 496;2023/04/20;34
+34;13579246;Distribuidora del Este;Jr. Arequipa 678;Lima 520;2023/05/25;35
+35;67988324;Agropecuaria New World S.A.C.;Av. El Sol 890;Lima 666;2023/06/30;36
+36;31415927;Exportadora Amazonas;Jr. Ucayali 123;Huancayo 777;2023/07/05;37
+37;61728394;Tecnologia Innovadora S.A;Av. Las Palmeras 456;Tacna 888;2023/08/10;38
+38;89123456;Constructora Progreso;Calle Mayor 789;Puno 999;2023/09/15;39
+39;43218765;Tiendas Delicias E.I.R.L;Jr. Junin 234;Ayacucho 010;2023/10/20;40
+40;87654021;Distribuidora Internacional;Av. Bolivar 567;Tumbes 121;2023/11/25;41
+41;51924368;Impresiones Rapidas E.I.R.L;Calle Lima 890;Moquegua 232;2023/12/30;42
+42;72638491;Muebleria Moderna S.A.C.;Jr. Ayacucho 345;Juliaca 343;2024/01/04;43
+43;13467982;Distribuidora Veloz E.I.R.L;Av. Los Sauces 678;Cajamarca 454;2024/02/09;44
+44;57132984;Comercial San Pedro;Jr. Tacna 901;Huaraz 565;2024/03/15;45
+45;92837465;Ferretería Universal;Av. Huancayo 234;Tarapoto 676;2024/04/20;46
+46;46281973;Importadora del Norte S.A.C;Jr. Puno 567;Ica 787;2024/05/25;47
+47;81627394;Distribuidora Aurora;Av. Los Girasoles 890;Huanuco 898;2024/06/30;48
+48;39581726;Cofee Express E.I.R.L.;Calle Lima 123;Pucallpa 989;2024/07/05;49
+49;62473918;Distribuidora Alegre S.A.C;Jr. Ucayali 456;Chimbote 010;2024/01/10;50
+50;75968423;Corporación Elegance S.A.C.;Av. Las Magnolias 1234;San Isidro, Lima 018;2023/06/25;51

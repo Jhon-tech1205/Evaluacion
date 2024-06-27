@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED98B83F-8798-B1D6-F10D-0320C120D4BE" name="Cliente">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>2A999DC8-8931-C87B-B3A2-59411C129826</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_cliente" id="DA7DF9F0-A5D2-B47C-3BCE-40290AF0E3EF">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>31904069-566C-D497-E371-0A51890DDC05</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ruc_o_dni" id="F539ED24-85ED-9B86-2134-E370555A0D4B">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>18C3D4BB-6660-9A2F-35F0-7C991A5E3FDE</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Razon_social" id="EF1849EF-78EC-9B10-E71F-4A55864D9419">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>63C810F4-AA95-B878-E421-1AF18FAFA8AA</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_entrega" id="DC600063-8556-4D2E-5F81-BB62A0ADF3CE">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>B098866F-0465-AE35-FDCA-A774D2089D91</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_fiscal" id="E40FCEE0-2510-72CF-06A7-0C5103954B7C">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>05A173CE-C460-55A4-0B1A-E445A21FDF72</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_registro" id="6A426F54-03BE-6256-49F5-D575C8C8BFB8">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>5B9A0F6A-A7F2-5445-D7F8-83C3992C30FF</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuarios_cod_usuario" id="6A7651C5-27CC-278C-163F-AECE95CF0B45">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>2DCE7E16-47C3-F4A1-9A21-FDB79C816C8D</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA9F4F96-0111-66D6-CA2D-F03629B1AB8A" referredColumn="B99AFF5F-DF93-6A98-BF94-E9498BDDB5FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE457F91-A021-7982-F3DD-ADCA40032DB1" name="Cliente_PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>CD886E6B-3CC9-945A-A551-058FE458CA58</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7DF9F0-A5D2-B47C-3BCE-40290AF0E3EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55B05877-7187-472D-A875-9A53160F3D05" name="Cliente_Ruc_o_dni_UN">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>C0DE66FB-AC81-75D7-C8B7-FBFEC2E26844</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F539ED24-85ED-9B86-2134-E370555A0D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B2DECA4-D6AA-1C93-A2BF-62EB4288325F" name="Cliente__IDX">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>31839EA2-5B07-C4FB-73E4-17FB27358D3A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6A7651C5-27CC-278C-163F-AECE95CF0B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9648B6B4-DAAA-D251-CDF9-FE85625B6311" name="Cliente_Usuarios_FK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:13:25 UTC</createdTime>
+<generatorID>31839EA2-5B07-C4FB-73E4-17FB27358D3A</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A7651C5-27CC-278C-163F-AECE95CF0B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

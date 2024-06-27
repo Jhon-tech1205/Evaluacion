@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A999DC8-8931-C87B-B3A2-59411C129826" name="Cliente">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:43:49 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_cliente" id="31904069-566C-D497-E371-0A51890DDC05">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:44:04 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ruc_o_dni" id="18C3D4BB-6660-9A2F-35F0-7C991A5E3FDE">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:45:44 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razon_social" id="63C810F4-AA95-B878-E421-1AF18FAFA8AA">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:47:35 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_entrega" id="B098866F-0465-AE35-FDCA-A774D2089D91">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:47:59 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_fiscal" id="05A173CE-C460-55A4-0B1A-E445A21FDF72">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:48:20 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_registro" id="5B9A0F6A-A7F2-5445-D7F8-83C3992C30FF">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:49:07 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usuario" id="2DCE7E16-47C3-F4A1-9A21-FDB79C816C8D">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 23:09:43 UTC</createdTime>
+<generatorID>31839EA2-5B07-C4FB-73E4-17FB27358D3A</generatorID>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="true"/>
+</engineerTo>
+<referedAttribute>47FE451B-48AF-65FF-09A3-E0D75F4A0065</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD886E6B-3CC9-945A-A551-058FE458CA58" name="Cliente PK">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:44:21 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31904069-566C-D497-E371-0A51890DDC05</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C0DE66FB-AC81-75D7-C8B7-FBFEC2E26844" name="UN_Ruc_o_dni">
+<createdBy>Jhon</createdBy>
+<createdTime>2024-06-24 22:46:03 UTC</createdTime>
+<ownerDesignName>Diseño_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="13949E3A-91BD-B46A-34D5-7467ECF8D11B" value="false"/>
+</engineerTo>
+<newElementsIDs>18C3D4BB-6660-9A2F-35F0-7C991A5E3FDE</newElementsIDs>
+<usedAttributes>
+<attributeRef>18C3D4BB-6660-9A2F-35F0-7C991A5E3FDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
